@@ -4,7 +4,8 @@
   "description": "Итак, делаю book list на express + postgresql.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,9 @@
   },
   "homepage": "https://github.com/maratreason/bookListApp#readme",
   "dependencies": {
-    "express": "^4.16.4"
+    "dotenv": "^8.0.0",
+    "express": "^4.16.4",
+    "mustache-express": "^1.2.8",
+    "nodemon": "^1.19.0"
   }
 }
