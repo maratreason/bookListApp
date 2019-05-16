@@ -15,7 +15,11 @@ app.set('view engine', 'mustache');
 app.use(express.static('public'));
 
 app.get('/list', (req, res) => {
-	res.render('list');
+	res.render('list-page');
+});
+
+app.get('/book-form', (req, res) => {
+	res.render('book-form');
 });
 
 app.listen(process.env.PORT, () => {
