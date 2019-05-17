@@ -20,10 +20,13 @@
   },
   "homepage": "https://github.com/maratreason/bookListApp#readme",
   "dependencies": {
+    "body-parser": "^1.19.0",
     "dotenv": "^8.0.0",
     "express": "^4.16.4",
     "mustache-express": "^1.2.8",
     "node-sass": "^4.12.0",
-    "nodemon": "^1.19.0"
+    "nodemon": "^1.19.0",
+    "pg": "^7.11.0",
+    "pg-camelcase": "0.0.3"
   }
 }

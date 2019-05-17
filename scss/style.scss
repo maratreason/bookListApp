@@ -12,5 +12,23 @@ h1 {
 	color: $primary-color;
 }
 
+td {
+	padding: 10px;
+	border: 1px solid grey;
+}
+
+table {
+	margin: 1em 0;
+}
+
+button {
+	border: none;
+	background-color: #C00;
+	padding: 5px 10px;
+	border-radius: 3px;
+	color: #fff;
+	cursor: pointer;
+}
+
 @import 'list-page';
 @import 'book-form';
