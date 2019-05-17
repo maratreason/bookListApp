@@ -9,18 +9,19 @@
 	<h1>Book List Page</h1>
 
 	<table>
-		{{#rows}}
+		{{#books}}
 			<tr>
 				<td>{{ bookId }}</td>
 				<td>{{ title }}</td>
 				<td>{{ authors }}</td>
+				<td><a href="/book/edit/{{bookId}}">Edit</a></td>
 				<td>
 					<form method="POST" action="/book/delete/{{bookId}}">
 						<button type="submit">Delete</button>
 					</form>
 				</td>
 			</tr>
-		{{/rows}}
+		{{/books}}
 	</table>
 	
 </body>
